@@ -19,6 +19,7 @@ local config = {
       only_on_error = false,
     },
     copy_compile_commands = true,
+    compile_commands_file = 'compile_commands.json',
     dap_configurations = {
       lldb_vscode = { type = 'lldb', request = 'launch' },
       cppdbg_vscode = { type = 'cppdbg', request = 'launch' },
